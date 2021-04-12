@@ -1,7 +1,7 @@
 {
   "name": "simple-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple NodeJS service that returns a 200 response at any route.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -15,6 +15,9 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
+  "repository": {
+    "url": "https://github.com/Surfline/docker-simple-service.git"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
